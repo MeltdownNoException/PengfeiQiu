@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>VoltJockey</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" >
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" >
+    <!-- Icon -->
+    <link rel="stylesheet" href="assets/fonts/line-icons.css">
+    <!-- Slicknav -->
+    <link rel="stylesheet" href="assets/css/slicknav.css">
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.css">
+    
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/nivo-lightbox.css">
+    <!-- Animate -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+  </head>
+  <body>
+
+    <!-- Header Area wrapper Starts -->
+    <header id="header-wrap">
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <a href="index.html" class="navbar-brand"><img src="assets/img/logo.svg" height="40" alt=""></a>       
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="lni-menu"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto w-100 justify-content-end clearfix">
+              <li class="nav-item active">
+                <a class="nav-link" href="#hero-area">
+                  Home
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#about">
+                  About
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#paper">
+                  Paper
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolios">
+                  Demo
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#qa">
+                  Q&A
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar End -->
+
+      <!-- Hero Area Start -->
+      <div id="hero-area" class="hero-area-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12">
+              <div class="contents text-center">
+                <h2 class="head-title wow fadeInUp">A vulnerability in modern processors<br>breaks trusted execution environment.</h2>
+                <div class="header-button wow fadeInUp" data-wow-delay="0.3s">
+                  <a href="#about" class="btn btn-common">Explore</a>
+                </div>
+              </div>
+              <div class="img-thumb text-center wow fadeInUp" data-wow-delay="0.6s">
+                <img class="img-fluid" src="assets/img/hero-1.png" style="max-height: 321px;" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Hero Area End -->
+
+    </header>
+    <!-- Header Area wrapper End -->
+
+    <!-- Feature Section Start -->
+    <div id="about">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12 section-padding">
+            <div class="text-wrapper">
+              <div>
+                <h2 class="title-hl wow fadeInLeft" data-wow-delay="0.3s">About<br>VoltJockey</h2>
+                <p class="col-lg-10 padding-none">VoltJockey is a critical vulnerability in modern processors. It is caused by the hardware features, which makes VoltJockey stealthy and hard to prevent. More importantly, the entire attack process is based on software without any involvement of hardware. With VoltJockey, attackers can steal secret data that is securely protected by the trusted execution environment (such as TrustZone and SGX). This might include your passwords, fingerprint information, and even payment methods.</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 section-padding feature-bg ">
+          	<div class="text-wrapper">
+	          	<h2 class="title-hl wow fadeInLeft" data-wow-delay="0.3s">Affected<br>Processors</h2>
+	                <p class="col-lg-10 padding-none">VoltJockey works on the processors that enable the dynamic voltage and frequency scaling (DVFS) technique. With our knowledge, almost all of the current processors enable DVFS, including these produced by Intel, ARM, and AMD. Depending on the cloud provider's infrastructure, it might be possible to infer secret data stored in the cloud.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Feature Section End -->
+  
+
+
+    <!-- Paper Section -->
+    <section id="paper" class="section-padding bg-gray">
+      <!-- Container Starts -->
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="title-hl wow fadeInLeft" data-wow-delay="0.3s">Latest Papers</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 paper-item">
+            <!-- paper Item Starts -->
+            <div class="paper-item-wrapper wow fadeInLeft" data-wow-delay="0.3s">
+              <div class="paper-item-text"> 
+                <h3>
+                Attack TrustZone
+                </h3>
+                <p class="sub">
+	                VoltJockey is an innovative software-controlled hardware fault-based attack on multi-core processors that adopt the dynamic voltage and frequency scaling (DVFS) technique for energy efficiency. This attack can obtain ARM TrustZone-guarded credentials, as well as the potential of bypassing the RSA-based verification to load untrusted applications into TrustZone.<br>
+	                By manipulating the voltages rather than the frequencies via the DVFS unit to generate hardware faults on the victim cores, VoltJockey achieves a stealthier and more efficient attack towards the AES key from TrustZone and the RSA-based TrustZone authentication.
+                </p>
+
+                <p>Cite:<br>Qiu P, Wang D, Lyu Y, et al. VoltJockey: Breaching TrustZone by Software-Controlled Voltage Manipulation over Multi-core Frequencies. Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security. ACM, 2019: 195-209.</p>
+                <a href="flies/paper/1.pdf" target="_blank" class="btn btn-common btn-rm">Read</a>
+              </div>
+            </div>
+            <!-- paper Item Wrapper Ends-->
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 paper-item">
+            <!-- paper Item Starts -->
+            <div class="paper-item-wrapper wow fadeInUp" data-wow-delay="0.6s">
+              <div class="paper-item-text"> 
+                <h3>
+                Attack SGX
+                </h3>
+                <p class="sub">
+	                Intel software-guard extensions (SGX) allows applications to run in a trusted space (enclave), which provides a highly secure primitive for the running codes and data.
+	                <br>
+	                We follow the basic principle for frequency and voltage based fault injection attacks which adjust the frequency or voltage levels deliberately to create hardware faults. And we develop a kernel module to schedule frequency and voltage for Intel processors through model-specific registers (MSR). Finally, we propose the first fault injection attack to break SGX and deploy the proposed attack to extract the key of an AES executed in the SGX enclave.
+                </p>
+                <p>Cite:<br>Qiu P, Wang D, Lyu Y, et al. VoltJockey: Breaking SGX by Software-Controlled Voltage-Induced Hardware Faults. Proceedings of the Asian Hardware Oriented Security and Trust Symposium (AsianHOST). 2019.
+                </p>
+                <a href="flies/paper/2.pdf" target="_blank" class="btn btn-common btn-rm">Read</a>
+              </div>
+            </div>
+            <!-- paper Item Wrapper Ends-->
+          </div>
+
+          
+        </div>
+      </div>
+    </section>
+    <!-- paper Section End -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolios" class="section-padding">
+      <div class="overlay"></div>
+      <!-- Container Starts -->
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="title-hl wow fadeInLeft" data-wow-delay="0.3s">Demo</h2>
+        </div>
+
+        <!-- Portfolio Recent Projects -->
+        <div id="portfolio" class="row">
+          <div class="col-lg-6 col-md-6 col-xs-12">
+            <div class="portfolio-item">
+              <div class="shot-item">
+                <video width="100%" controls="" preload="meta">
+						<source src="flies/demo_video/Normal-AES.mp4" type="video/mp4">
+				</video>
+              	<p>Infer the key of AES executed in the normal world.</p>
+              </div>               
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-xs-12">
+            <div class="portfolio-item">
+              <div class="shot-item">
+                <video width="100%" controls="" preload="meta">
+						<source src="flies/demo_video/TrustZone-AES.mp4" type="video/mp4">
+				</video>
+              	<p>Infer the key of AES executed in the TrustZone.</p>
+              </div>               
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-xs-12">
+            <div class="portfolio-item">
+              <div class="shot-item">
+                <video width="100%" controls="" preload="meta">
+						<source src="flies/demo_video/Normal-RSA.mp4" type="video/mp4">
+				</video>
+              	<p>Change the output of RSA executed in the normal world.</p>
+              </div>               
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-xs-12">
+            <div class="portfolio-item">
+              <div class="shot-item">
+                <video width="100%" controls="" preload="meta">
+						<source src="flies/demo_video/TrustZone-RSA.mp4" type="video/mp4">
+				</video>
+              	<p>Change the output of RSA executed in the TrustZone.</p>
+              </div>               
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Container Ends -->
+    </section>
+    <!-- Portfolio Section Ends --> 
+
+    <!-- Q&A Section Start -->
+    <section id="qa" class="section-padding bg-gray">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Q&A</h2>
+        </div>
+        <div class="row">
+          <!-- QA item -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="qa-item wow fadeInRight" data-wow-delay="0.3s">
+              <div class="icon">
+                <i class="lni-question-circle"></i>
+              </div>
+              <div class="qa-content">
+                <h4>Am I affected by the vulnerability?</h4>
+                <p>We have verified the vulnerability on the Qualcomm's APQ8084AB CPU and Intel's i7-8550U CPU. If your processor is a multi-core processor and enables DVFS and the trusted execution environment, you will probably be affected by the vulnerability. We welcome you to report the processors that are affected by the vulnerability.</p>
+              </div>
+            </div>
+          </div>
+          <!-- QA item -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="qa-item wow fadeInRight" data-wow-delay="0.3s">
+              <div class="icon">
+                <i class="lni-question-circle"></i>
+              </div>
+              <div class="qa-content">
+                <h4>Does the vulnerability have a CVE number?</h4>
+                <p>Intel has assigned a CVE number to the vulnerability, whic is CVE-2019-11157.</p>
+              </div>
+            </div>
+          </div>
+          <!-- QA item -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="qa-item wow fadeInRight" data-wow-delay="0.3s">
+              <div class="icon">
+                <i class="lni-question-circle"></i>
+              </div>
+              <div class="qa-content">
+                <h4>How to protect my computer from being attacked by the vulnerability?</h4>
+                <p>It is hard to defend against the vulnerability solely with software. We suggest you to well protect your account and password.</p>
+              </div>
+            </div>
+          </div>
+          <!-- QA item -->
+          
+        </div>
+      </div>
+    </section>
+    <!-- Q&A Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="section-padding">    
+      <div class="container">
+        <div class="row contact-form-area wow fadeInUp" data-wow-delay="0.4s">          
+          <div class="col-md-6 col-lg-6 col-sm-12">
+            <div class="contact-block">
+              <form id="contactForm">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="name" name="name" placeholder="Name" required data-error="Please enter your name">
+                      <div class="help-block with-errors"></div>
+                    </div>                                 
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="text" placeholder="Email" id="email" class="form-control" name="email" required data-error="Please enter your email">
+                      <div class="help-block with-errors"></div>
+                    </div> 
+                  </div>
+                   <div class="col-md-12">
+                    <div class="form-group">
+                      <input type="text" placeholder="Subject" id="msg_subject" class="form-control" required data-error="Please enter your subject">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group"> 
+                      <textarea class="form-control" id="message" placeholder="Your Message" rows="5" data-error="Write your message" required></textarea>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="submit-button">
+                      <button class="btn btn-common" id="form-submit" type="submit">Send Message</button>
+                      <div id="msgSubmit" class="h3 text-center hidden"></div> 
+                      <div class="clearfix"></div> 
+                    </div>
+                  </div>
+                </div>            
+              </form>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-sm-12">
+            <div class="contact-right-area wow fadeIn">
+              <h2>Contact Us</h2>
+              <div class="contact-right">
+                <div class="single-contact">
+                  <div class="contact-icon">
+                    <i class="lni-map-marker"></i>
+                  </div>
+                  <p>Room 4-305, FIT building, Tsinghua University, Beijing, China.</p>
+                </div>
+                <div class="single-contact">
+                  <div class="contact-icon">
+                    <i class="lni-envelope"></i>
+                  </div>
+                  <p>Email:  luyq@mail.tsinghua.edu.cn</p>
+                </div>
+                <div class="single-contact">
+                  <div class="contact-icon">
+                    <i class="lni-phone-handset"></i>
+                  </div>
+                  <p>Phone:  +86 189-1036-3606</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </section>
+    <!-- Contact Section End -->
+    
+    <!-- Copyright Section Start -->
+    <div class="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-xs-12">
+            <p class="float-right">Copyright © 2019 Tsinghua University. All rights reserved.</p>
+          </div> 
+        </div>
+      </div>
+    </div>
+    <!-- Copyright Section End -->
+
+    <!-- Go to Top Link -->
+    <a href="#" class="back-to-top">
+    	<i class="lni-arrow-up"></i>
+    </a>
+    
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="loader" id="loader-1"></div>
+    </div>
+    <!-- End Preloader -->
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.mixitup.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/scrolling-nav.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>  
+    <script src="assets/js/nivo-lightbox.js"></script>     
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>     
+    <script src="assets/js/waypoints.min.js"></script>   
+    <script src="assets/js/jquery.slicknav.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/form-validator.min.js"></script>
+    <script src="assets/js/contact-form-script.min.js"></script>
+      
+  </body>
+</html>
