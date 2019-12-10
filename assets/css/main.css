@@ -324,7 +324,7 @@ hr {
 .text-wrapper {
   height: 100%;
   display: table;
-  padding-left: 140px;
+  padding-left: 100px;
 }
 
 .text-wrapper > div {

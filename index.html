@@ -112,17 +112,33 @@
             <div class="text-wrapper">
               <div>
                 <h2 class="title-hl wow fadeInLeft" data-wow-delay="0.3s">About<br>VoltJockey</h2>
-                <p class="col-lg-10 padding-none">VoltJockey is a critical vulnerability in modern processors. It is caused by the hardware features, which makes VoltJockey stealthy and hard to prevent. More importantly, the entire attack process is based on software without any involvement of hardware. With VoltJockey, attackers can steal secret data that is securely protected by the trusted execution environment (such as TrustZone and SGX). This might include your passwords, fingerprint information, and even payment methods.</p>
+                <p class="padding-none">VoltJockey is a critical vulnerability in modern processors. It is caused by the hardware features, which makes VoltJockey stealthy and hard to prevent. More importantly, the entire attack process is based on software without any involvement of hardware. With VoltJockey, attackers can steal secret data that is securely protected by the trusted execution environment (such as TrustZone and SGX). This might include your passwords, fingerprint information, and even payment methods.</br>VoltJockey works on the processors that enable the dynamic voltage and frequency scaling (DVFS) technique. With our knowledge, almost all of the current processors enable DVFS, including these produced by Intel, ARM, and AMD. Depending on the cloud provider's infrastructure, it might be possible to infer secret data stored in the cloud.</p>
                 
               </div>
             </div>
           </div>
           <div class="col-lg-6 col-md-12 col-sm-12 section-padding feature-bg ">
           	<div class="text-wrapper">
+	          	<h2 class="title-hl wow fadeInLeft" data-wow-delay="0.3s">Timeline of finding<br>VoltJockey</h2>
+	            <p class="padding-none">May 2017: Start to investigate the VoltJockey.</p>
+                <p class="padding-none">September 2017: In collaboration with University of Maryland.</p>
+                <p class="padding-none">February 2019: Submit a research paper to IEEE S&P.</p>
+                <p class="padding-none">May 2019: Submit a research paper about breaking TrustZone to ACM CCS.</p>
+                <p class="padding-none">May 2019: Demonstrate the VoltJockey on HOST.</p>
+                <p class="padding-none">June 2019: Submit a research paper about breaking SGX to AsianHost.</p>
+                <p class="padding-none">November 11, 2019: CCS publish the paper of VoltJockey.</p>
+                <p class="padding-none">December 10, 2019: Intel confirm and publish the VoltJockey.</p>
+                <p class="padding-none">December 16, 2019: AsianHost publish the VoltJockey.</p>
+            </div>
+          </div>
+          <!--
+          <div class="col-lg-6 col-md-12 col-sm-12 section-padding feature-bg ">
+          	<div class="text-wrapper">
 	          	<h2 class="title-hl wow fadeInLeft" data-wow-delay="0.3s">Affected<br>Processors</h2>
 	                <p class="col-lg-10 padding-none">VoltJockey works on the processors that enable the dynamic voltage and frequency scaling (DVFS) technique. With our knowledge, almost all of the current processors enable DVFS, including these produced by Intel, ARM, and AMD. Depending on the cloud provider's infrastructure, it might be possible to infer secret data stored in the cloud.</p>
             </div>
           </div>
+          -->
         </div>
       </div>
     </div>
